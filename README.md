@@ -31,6 +31,11 @@ The initial part of this project is the exploratory visualization tool. It prima
 
 The green points indicate VIIRS (375m) active fire hotspots, representing the detection of gas flares during the time period. The red point are the centroid of unique individual clusters, indicative of active flaring sites. 
 
-The clusters were defined using the DBSCAN (Density-Based Spatial Clustering of Applications with Noise) algorithm with minimum sample number of 5. The yellow points are the outliers that did not fit into a unique cluster class.    
+The clusters were defined using the DBSCAN (Density-Based Spatial Clustering of Applications with Noise) algorithm with minimum sample size of 5. The yellow points are the outliers that did not fit into a unique cluster class.    
 
 <img src="docs/Tab1_VisLayers.png" alt="Tab1_VisLayer">
+Figure 1. Interactive mapping application to select data layer visualization by month. Specify map center and zoom for additional control. 
+
+
+<img src="docs/Tab1_VisLayers2.png" alt="Tab1_VisLayer2">
+Figure 2. Zoomed out to the entire extent of the basin for May 2021. Methane quantity via TROPOMI can be seen to coincide with active flare site hotspots. 
