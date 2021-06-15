@@ -20,7 +20,7 @@ A combination of high resolution imagery, and satellite-based products that dete
 * 2018 NAIP (1m) Imagery
 * Monthly Sentinel (10m) 
 * Monthly TROPOMI - Methane Readings 
-* VIIRS NOAA Active Fire Detections 
+* VIIRS NOAA - Active Gas Flare Detections 
 
 
 ## Walk-Through
