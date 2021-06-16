@@ -27,9 +27,9 @@ A combination of high resolution imagery, and satellite-based products that dete
 
 ## (1) Interactive mapping
 
-The initial part of this project is the exploratory visualization tool. It primarily relies of the Google Earth Engine API and ipywiget to customize user-based queries to visualize a subset of imagery and data layers at a monthly scale from Jan 2020 to June 2021 within the Permian Basin. 
+The initial part of this project is the exploratory visualization tool. The tool, based on the ipywidget package, calls on the Google Earth Engine Python API to customize user-based queries that informs the visualization of O&G related imagery and data layers from Jan 2020 to June 2021 within the Permian Basin on a monthly interval. 
 
-The green points indicate VIIRS (375m) active fire hotspots, representing the detection of gas flares during the time period. The red point are the centroid of unique individual clusters, indicative of active flaring sites. 
+The point location in green indicate VIIRS (375m) active fire hotspots, representing the detection of gas flares during the time period. The red point are the centroid of unique individual clusters, indicative of active flaring sites (Figure 1). 
 
 The clusters were defined using the DBSCAN (Density-Based Spatial Clustering of Applications with Noise) algorithm with minimum sample size of 5. The yellow points are the outliers that did not fit into a unique cluster class.    
 
